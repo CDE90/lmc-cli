@@ -28,5 +28,5 @@ fn main() {
     // run the program
     lmc_assembly::run(program, lmc_assembly::DefaultIO, cli.debug);
 
-    println!("Program finished");
+    println!("\nProgram finished");
 }
