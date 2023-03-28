@@ -12,6 +12,8 @@ lmc-cli --program <path to program>
 
 ## Example
 
+Copy an example from the [library repo](https://github.com/CDE90/lmc-assembly/tree/master/examples) to the current directory.
+
 ```bash
-lmc-cli --program examples/sum.lmc
+lmc-cli --program sum.lmc
 ```

@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Ethan Coward <ethan@ethancoward.dev>"]
 description = "CLI for LMC Assembly"
+license = "MIT"
+repository = "https://github.com/CDE90/lmc-cli"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
