@@ -19,13 +19,14 @@ fn main() {
     let code = std::fs::read_to_string(cli.program).expect("Unable to read file");
 
     // parse the code
-    let program = lmc_assembly::parse(&code, cli.debug);
+    let program = lmc_assembly::parse(&code, cli.debug).expect("Unable to parse program");
 
     // assemble the program
-    let program = lmc_assembly::assemble(program);
+    let program = lmc_assembly::assemble(program).expect("Unable to assemble program");
 
     // run the program
-    lmc_assembly::run(program, lmc_assembly::DefaultIO, cli.debug);
+    lmc_assembly::run(program, &mut lmc_assembly::DefaultIO, cli.debug)
+        .expect("Unable to run program");
 
     println!("\nProgram finished");
 }

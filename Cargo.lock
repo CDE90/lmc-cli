@@ -126,13 +126,13 @@ checksum = "f051f77a7c8e6957c0696eac88f26b0117e54f52d3fc682ab19397a8812846a4"
 
 [[package]]
 name = "lmc-assembly"
-version = "0.1.0"
+version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "89f2c0331cb95d878fe608c5540b2491ec30793a04d277bf4a8ad672a82945f2"
+checksum = "fb3e5b5e4cd5a6721d0781aa45ac71fe2ccd2ead18a31d17b9043d5d7ae5a77f"
 
 [[package]]
 name = "lmc-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "lmc-assembly",
